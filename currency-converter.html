@@ -1,19 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currency Converter</title>
     <link rel="stylesheet" href="currency-converter.css" />
-</head>
-<body>
-
-
-
-
-
-
+  </head>
+  <body>
+    <div class="container">
+        <div class="amount">
+            <h2>Currency Converter</h2>
+          <form>
+            <p>Enter Amount</p>
+            <input value="100" type="text" />
+          </div>
+        <div class="dropdown">
+        <div class="from">
+            
+              
+              <p>From</p>
+              <div class="select-container"><select name="form">
+                <img src="https://flagsapi.com/US/flat/64.png">
+                <option value="USD">USD</option>
+                <option value="INR">INR</option>
+                <option value="EUR">EUR</option>
+                <option value="AUD">AUD</option>
+                <option value="RUB">RUB</option>
+                <option value="AED">AED</option>
+              </select>
+            </div>
+           </div>
+           <div class="to">    <p>To</p>
+            <div class="select-container"><select name="form">
+              <img src="https://flagsapi.com/IN/flat/64.png">
+              <option value="USD">USD</option>
+              <option value="INR">INR</option>
+              <option value="EUR">EUR</option>
+              <option value="AUD">AUD</option>
+              <option value="RUB">RUB</option>
+              <option value="AED">AED</option>
+            </select>
+          </div></div>
+         </div>
+    </form>
+    </div>
+    
+  
 
     <script src="currency-converter.js"></script>
-</body>
+    <script src="countryList.js"></script>
+  </body>
 </html>
